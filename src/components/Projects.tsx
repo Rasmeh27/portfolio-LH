@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       title: "Bytes and Words",
       description:
         "A modern tech blog for sharing articles on technology, programming, and design. Built with React, Tailwind CSS, and Vite, featuring a clean, responsive interface.",
-      image: "/images/byteandwords.png",
+      image: "https://www.shutterstock.com/image-photo/hands-computer-typing-desk-remote-600nw-2499290475.jpg",
       category: "development",
       technologies: [
         "Figma",
@@ -61,7 +61,7 @@ const Projects: React.FC = () => {
       title: "Text Encryptor",
       description:
         "A simple app to encrypt and decrypt text using a basic algorithm. Built for an Alura Latam challenge, it features a clean, user-friendly interface with HTML and CSS.",
-      image: "/images/encritador.jpg",
+      image: "https://kinsta.com/wp-content/uploads/2023/07/what-is-encryption.jpg",
       category: "development",
       technologies: ["HTML", "CSS", "JavaScript"],
       liveUrl: "https://rasmeh27.github.io/encriptador-de-texto/",
