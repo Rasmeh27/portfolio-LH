@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
       title: "Adon Film Portfolio",
       description:
         "Official portfolio site for photographer Bryan Adon. Built with React and TailwindCSS, it features a responsive gallery, service showcase, and an interactive contact form via EmailJS.",
-      image: "images/logoportfoliobryan.jpg",
+      image: "/images/logoportfoliobryan.jpg",
       category: "design",
       technologies: ["React JS", " Tailwind CSS", "EmailJS", "Vite"],
       liveUrl: "https://bryan-adon-portafolio.vercel.app",
@@ -61,7 +61,7 @@ const Projects: React.FC = () => {
       title: "Text Encryptor",
       description:
         "A simple app to encrypt and decrypt text using a basic algorithm. Built for an Alura Latam challenge, it features a clean, user-friendly interface with HTML and CSS.",
-      image: "/public/image/encritador.jpg",
+      image: "/images/encritador.jpg",
       category: "development",
       technologies: ["HTML", "CSS", "JavaScript"],
       liveUrl: "https://rasmeh27.github.io/encriptador-de-texto/",
