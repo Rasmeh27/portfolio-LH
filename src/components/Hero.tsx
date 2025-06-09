@@ -12,7 +12,7 @@ const colors = [
 ];
 
 // Utilidad random
-const getRandom = (min: number, max: number) => Math.random() * (max - min) + min;
+const getRandom = (min: number, max: number): number => Math.random() * (max - min) + min;
 
 // Componente de una sola partícula
 const Particle = ({ i }: {i: number}) => {

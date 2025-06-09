@@ -36,13 +36,14 @@ const Contact: React.FC = () => {
           text: "Gracias por tu mensaje, me pondré en contacto contigo pronto.",
           icon: "success",
         });
+        form.current!.reset();
         setFormData({
           name: '',
           email: '',
           subject: '',
           message: ''
         });
-        form.current?.reset();
+        
       })
       .catch(() => {
         Swal.fire({
