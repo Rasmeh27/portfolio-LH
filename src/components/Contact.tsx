@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
           subject: '',
           message: ''
         });
-        form.current.reset();
+        form.current?.reset();
       })
       .catch(() => {
         Swal.fire({
