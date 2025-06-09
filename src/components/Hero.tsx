@@ -100,7 +100,7 @@ const Hero = () => {
                 View My Work
               </button>
             </a>
-            <a href="/public/document/Luis-Herarsme-Software-Developer.pdf" download="Resume">
+            <a href="/document/Luis-Herarsme-Software-Developer.pdf" download="Resume">
               <button className="px-8 py-4 border-2 border-purple-600 text-purple-600 rounded-full font-semibold hover:bg-purple-600 hover:text-white transition-all duration-200 cursor-pointer">
                 Download Resume
               </button>

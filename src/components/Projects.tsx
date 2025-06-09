@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
       title: "Adon Film Portfolio",
       description:
         "Official portfolio site for photographer Bryan Adon. Built with React and TailwindCSS, it features a responsive gallery, service showcase, and an interactive contact form via EmailJS.",
-      image: "/public/image/logoportfoliobryan.jpg",
+      image: "/images/logoportfoliobryan.jpg",
       category: "design",
       technologies: ["React JS", " Tailwind CSS", "EmailJS", "Vite"],
       liveUrl: "https://bryan-adon-portafolio.vercel.app",
@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       title: "Bytes and Words",
       description:
         "A modern tech blog for sharing articles on technology, programming, and design. Built with React, Tailwind CSS, and Vite, featuring a clean, responsive interface.",
-      image: "/public/image/byteandwords.png",
+      image: "/images/byteandwords.png",
       category: "development",
       technologies: [
         "Figma",
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
       title: "Friends Social Media App",
       description:
         "A minimalist social network where users create profiles, post updates, add friends, and discover mutual connections. Developed with FastAPI and vanilla JS, it uses a graph-based approach to suggest new friends and visualize connections.",
-      image: "/public/image/friends.png",
+      image: "/images/friends.png",
       category: "fullstack",
       technologies: ["HTML", "CSS", "Python", "PostgreSQL", "FastAPI"],
       liveUrl: null,
@@ -73,7 +73,7 @@ const Projects: React.FC = () => {
       description:
         "A Spring Boot app for secure user authentication and management, using JWT for authorization. Includes user login and protected API endpoints for a robust, scalable solution.",
       image:
-        "/public/image/forumhub.png",
+        "/images/forumhub.png",
       category: "development",
       technologies: ["Java", "Spring boot", "Auth0 JWT", "Spring Security", "Jakarta Servlet", "PostgreSQL"],
       liveUrl: null,
