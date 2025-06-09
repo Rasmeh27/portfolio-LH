@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
       title: "Adon Film Portfolio",
       description:
         "Official portfolio site for photographer Bryan Adon. Built with React and TailwindCSS, it features a responsive gallery, service showcase, and an interactive contact form via EmailJS.",
-      image: "/images/logoportfoliobryan.jpg",
+      image: "images/logoportfoliobryan.jpg",
       category: "design",
       technologies: ["React JS", " Tailwind CSS", "EmailJS", "Vite"],
       liveUrl: "https://bryan-adon-portafolio.vercel.app",
