@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Instagram, Loader2 } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
 
@@ -12,6 +12,9 @@ const Contact: React.FC = () => {
     message: ''
   });
 
+  // Building loading spinner 
+  const [isLoading, setIsLoading] = useState(false);
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
@@ -23,6 +26,8 @@ const Contact: React.FC = () => {
     e.preventDefault();
 
     if (!form.current) return;
+
+    setIsLoading(true);
 
     emailjs.sendForm(
       import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -51,6 +56,8 @@ const Contact: React.FC = () => {
           text: "Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.",
           icon: "error",
         });
+      }).finally(() => {
+        setIsLoading(false);
       });
   };
 
@@ -221,9 +228,14 @@ const Contact: React.FC = () => {
               <button
                 type="submit"
                 className="w-full bg-gradient-to-r from-purple-600 to-blue-500 text-white py-4 px-6 rounded-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer"
+                disabled={isLoading}
               >
+                {isLoading ? (
+                  <Loader2 size={20} className="animate-spin" />
+                ) : (
                 <Send size={20} />
-                Send Message
+                )}
+                {isLoading ? 'Sending...' : 'Send Message'}
               </button>
             </form>
           </div>
