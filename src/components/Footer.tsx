@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
               © {currentYear} Luis Herasme. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm flex items-center gap-1">
-              Made with <Heart size={16} className="text-purple-400" /> and lots of code
+              Before anything else, preparation is the key to success. 
             </p>
           </div>
         </div>
