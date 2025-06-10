@@ -21,7 +21,8 @@ const Projects: React.FC = () => {
       title: "Bytes and Words",
       description:
         "A modern tech blog for sharing articles on technology, programming, and design. Built with React, Tailwind CSS, and Vite, featuring a clean, responsive interface.",
-      image: "https://www.shutterstock.com/image-photo/hands-computer-typing-desk-remote-600nw-2499290475.jpg",
+      image:
+        "https://www.shutterstock.com/image-photo/hands-computer-typing-desk-remote-600nw-2499290475.jpg",
       category: "development",
       technologies: [
         "Figma",
@@ -50,7 +51,8 @@ const Projects: React.FC = () => {
       title: "Infinity Page",
       description:
         "Modern, website created with HTML, CSS, and JavaScript. It focuses on responsive design and smooth animations, featuring a clean layout and interactive elements.",
-      image: "https://cdn.pixabay.com/photo/2015/05/31/11/21/shelf-791155_1280.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2015/05/31/11/21/shelf-791155_1280.jpg",
       category: "design",
       technologies: ["HTML", "CSS", "JavaScript"],
       liveUrl: "https://paginasinfinitas.vercel.app/index.html",
@@ -61,7 +63,8 @@ const Projects: React.FC = () => {
       title: "Text Encryptor",
       description:
         "A simple app to encrypt and decrypt text using a basic algorithm. Built for an Alura Latam challenge, it features a clean, user-friendly interface with HTML and CSS.",
-      image: "https://kinsta.com/wp-content/uploads/2023/07/what-is-encryption.jpg",
+      image:
+        "https://kinsta.com/wp-content/uploads/2023/07/what-is-encryption.jpg",
       category: "development",
       technologies: ["HTML", "CSS", "JavaScript"],
       liveUrl: "https://rasmeh27.github.io/encriptador-de-texto/",
@@ -72,10 +75,16 @@ const Projects: React.FC = () => {
       title: "Forum hub - Java Spring Boot",
       description:
         "A Spring Boot app for secure user authentication and management, using JWT for authorization. Includes user login and protected API endpoints for a robust, scalable solution.",
-      image:
-        "/images/forumhub.png",
+      image: "/images/forumhub.png",
       category: "development",
-      technologies: ["Java", "Spring boot", "Auth0 JWT", "Spring Security", "Jakarta Servlet", "PostgreSQL"],
+      technologies: [
+        "Java",
+        "Spring boot",
+        "Auth0 JWT",
+        "Spring Security",
+        "Jakarta Servlet",
+        "PostgreSQL",
+      ],
       liveUrl: null,
       githubUrl: "https://github.com/Rasmeh27/forum-hub-java-spring-boot",
     },
@@ -150,7 +159,7 @@ const Projects: React.FC = () => {
                   alt={project.title}
                   className="w-full h-60 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-100 md:opacity-0 group-hover:md:opacity-100 transition-opacity duration-300 pointer-events-auto">
                   <div className="absolute bottom-4 left-4 right-4 flex gap-2">
                     {project.liveUrl && (
                       <a
