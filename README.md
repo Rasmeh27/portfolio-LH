@@ -13,7 +13,6 @@
 <p>
   Check out the portfolio live:<br>
   <a href="https://portfolio-luishr.vercel.app" target="_blank"><strong>LuisHrDev Web Portfolio</strong></a> <br>
-  <em>(Replace with your real link when published)</em>
 </p>
 
 <h2>✨ Key Features</h2>
