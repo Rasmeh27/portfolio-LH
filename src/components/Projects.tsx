@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
       description:
         "A modern tech blog for sharing articles on technology, programming, and design. Built with React, Tailwind CSS, and Vite, featuring a clean, responsive interface.",
       image:
-        "https://www.shutterstock.com/image-photo/hands-computer-typing-desk-remote-600nw-2499290475.jpg",
+        "/images/byteandwords.png",
       category: "development",
       technologies: [
         "Figma",
