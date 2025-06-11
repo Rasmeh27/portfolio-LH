@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Instagram, Loader2 } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Instagram, Loader2, Music2 } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
 
@@ -99,6 +99,12 @@ const Contact: React.FC = () => {
       name: "Instagram",
       href: "https://www.instagram.com/luishr.dev/",
       color: "hover:text-pink-400"
+    },
+    {
+      icon: <Music2 className="w-6 h-6" />,
+      name: "Tiktok",
+      href: "https://www.tiktok.com/@luishr.dev?lang=en",
+      color: "hover:text-cyan-400"
     }
   ];
 

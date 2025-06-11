@@ -1,4 +1,4 @@
-import { ChevronDown, Github, Instagram, Linkedin, Mail } from "lucide-react";
+import { ChevronDown, Github, Instagram, Linkedin, Mail, Music2} from "lucide-react";
 
 // Colores de las partículas
 const colors = [
@@ -118,6 +118,9 @@ const Hero = () => {
             </a>
             <a href="https://www.instagram.com/luishr.dev/" className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transform hover:scale-110 transition-all duration-200">
               <Instagram size={24} className="text-gray-600 hover:text-pink-500" />
+            </a>
+            <a href="https://www.tiktok.com/@luishr.dev?lang=en" className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transform hover:scale-110 transition-all duration-200">
+              <Music2 size={24} className="text-gray-600 hover:text-cyan-500" />
             </a>
           </div>
           <button
