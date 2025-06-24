@@ -100,6 +100,18 @@ const Projects: React.FC = () => {
       liveUrl: null,
       githubUrl: "https://github.com/Rasmeh27/Conversor-De-Monedas-Java",
     },
+    {
+      id: 8,
+      title: "Raffle System - Fast Racing Tuning",
+      description:
+        "A web app where users join raffles by submitting a form and payment receipt. Admins manage participants, assign ticket numbers, and filter or export data through a secure panel.",
+      image:
+        "/images/fastracing-logo.jpg",
+      category: "development",
+      technologies: ["Python", "React", "TypeScript","Vite","FastAPI","PostgreSQL"],
+      liveUrl: "https://rifafastracing.vercel.app",
+      githubUrl: null,
+    },
   ];
 
   const filters = [
