@@ -107,7 +107,7 @@ const Projects: React.FC = () => {
         "A web app where users join raffles by submitting a form and payment receipt. Admins manage participants, assign ticket numbers, and filter or export data through a secure panel.",
       image:
         "/images/fastracing-logo.jpg",
-      category: "development",
+      category: "fullstack",
       technologies: ["Python", "React", "TypeScript","Vite","FastAPI","PostgreSQL"],
       liveUrl: "https://rifafastracing.vercel.app",
       githubUrl: null,
