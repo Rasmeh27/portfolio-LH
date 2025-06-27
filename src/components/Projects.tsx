@@ -109,7 +109,7 @@ const Projects: React.FC = () => {
         "/images/fastracing-logo.jpg",
       category: "fullstack",
       technologies: ["Python", "React", "TypeScript","Vite","FastAPI","PostgreSQL"],
-      liveUrl: "https://rifafastracing.vercel.app",
+      liveUrl: null,
       githubUrl: null,
     },
   ];
